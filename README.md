@@ -1,24 +1,12 @@
-# README
+# UI Sprint Design
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Hacking Project 14/08/2018
 
-Things you may want to cover:
+Application rails avec création des composants :
+- un bouton
+- deux avatars (large/small)
+- une navbar
+- trois cards
+- une tabs 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Travail réalisé par Ahmed Bouzid, Thomas Iatrou & Romain Cestari
