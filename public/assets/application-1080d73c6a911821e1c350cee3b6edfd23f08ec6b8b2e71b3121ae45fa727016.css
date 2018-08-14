@@ -1,0 +1,514 @@
+.avatar_content{
+	position:relative;
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.avatar-large{
+	position:relative;
+	width:150px;
+	height:auto;
+	padding:15px;
+	margin:30px;
+	border-radius: 10px;
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.avatar_content_large{
+	position:relative;
+	width:100%;
+	overflow:hidden;
+}
+
+.avatar_content_large:nth-child(1){
+	padding-bottom:10px;
+}
+
+.avatar_content_large:nth-child(2){
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+}
+
+.avatar_image_large{
+	width:100%;
+	height:auto;
+	border-radius: 50%;
+}
+
+
+
+.avatar-small{
+	position:relative;
+	width:auto;
+	height:30px;
+	padding:10px;
+	border-radius: 10px;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+
+.avatar_content_small{
+	position:relative;
+	width:auto;
+	overflow:hidden;
+	align-self:center;
+}
+
+.avatar_content_small:nth-child(1){
+	height:100%;
+	margin-right:8px;
+}
+
+.avatar_content_small:nth-child(2){
+	font-family: 'Open Sans', sans-serif;
+	height:auto;
+	font-size:20px;
+}
+
+
+.avatar_image_small{
+	width:auto;
+	height:100%;
+	border-radius: 50%;
+}
+
+
+
+
+
+.banner_content{
+	position:relative;
+	width:100%;
+	height:80vh;
+	display:flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	background-image: url(/assets/img0.jpg);
+	background-size: 100%;
+}
+
+h1{
+	color:white;
+	text-align: center;
+	font-size:100px;
+}
+.boutton_content{
+	position:relative;
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.btn {
+	color: #ff7e5f;
+	background-image: linear-gradient(to bottom, #ff7e5f 40%, #feb47b 100%);
+	border-radius: 10px;
+	display: block;
+	width: 150px;
+	height: 40px;
+	padding: 3px;
+	margin: 0 auto;
+}
+
+.btn:hover {
+	color: #fff;
+}
+
+.btn span {
+	font-family: 'Open Sans', sans-serif;
+	align-items: center;
+	background: #ffff;
+	border-radius: 7px;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	transition: background .5s ease;
+	width: 100%;
+}
+
+.btn:hover span {
+	background: transparent;
+}
+h3{
+	font-size:50px;
+	color:white;
+	-webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+h4{
+	font-size:17px;
+	color:white;
+	font-weight: 300;
+	-webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+span{
+	vertical-align: middle;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+}
+
+.cards_content{
+	position:relative;
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items:center;
+	margin-bottom: 30px
+}
+
+.card{
+	top:0;
+	position:relative;
+	max-width:340px;
+	min-width:240px;
+	height:420px;
+	border-radius: 10px;
+	overflow:hidden;
+	margin:15px;
+	flex: 1;
+	display:flex;
+	background-size:100%;
+	flex-direction:column;
+	filter: grayscale(80%);
+	box-shadow: 0px 0px 0px grey;
+	-webkit-transition: filter 1.5s, top 1s, box-shadow ease-in-out; /* Safari */
+  transition: filter 1.5s, top 1s, box-shadow ease-in-out;
+}
+
+.card:nth-child(1){
+	background-image: url(/assets/card1.jpg);
+}
+
+.card:nth-child(2){
+	background-image: url(/assets/card2.jpg)
+}
+
+.card:nth-child(3){
+	background-image: url(/assets/card3.jpg);
+}
+
+.card:hover{
+	top:5px;
+	filter: grayscale(0%);
+	box-shadow: -5px -5px 15px #eeeeee;
+}
+
+
+
+
+
+
+.card_avatar{
+	position:relative;
+	align-self:flex-start;
+	width:100%;
+	height:auto;
+	z-index:3;
+}
+
+		.avatar{
+		width:auto;
+		height:15%;
+		vertical-align: middle;
+		margin:5px;
+		position:relative;
+		}
+
+.card_title{
+	position:relative;
+	flex-grow: 6;
+	align-self:center;
+	width:100%;
+	z-index:2;
+}
+
+	.title{
+		position:absolute;
+		margin-left:15px;
+		bottom:5%;
+	}
+
+.card-category{
+	position:relative;
+	flex-grow: 1;
+	align-self:flex-end;
+	width:100%;
+	z-index:3;
+}
+
+		.categorie{
+		position:absolute;
+		margin-left:15px;
+		vertical-align: middle;
+		}
+
+header{
+	position:fixed;
+	top:0;
+	width:100%;
+	height:auto;
+	background:#000;
+	z-index:50;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+}
+
+ul.list{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	padding-left:30px;
+	padding-right:30px;
+	vertical-align: middle;
+	list-style-type: none
+}
+
+.list{
+	color: white;
+	flex: 1;
+	list-style-type: none;
+}
+
+.list:nth-child(1){
+	flex: 2;
+}
+.list:nth-child(2){
+	text-align:center;
+	flex: 6;
+}
+
+.list:nth-child(3){
+	justify-self: flex-end;
+	color: white;
+	flex: 2;
+}
+
+.liste_boutton_header{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	list-style-type: none;
+	align-items: center;
+	padding:0;
+}
+.list_boutton{
+	flex: 0.2;
+}
+
+
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 6;
+
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+/* --- Import Google Fonts stylesheets --- */
+
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Playfair+Display:700" rel="stylesheet">
+
+/* --- Import Components stylesheets --- */ 
+@import url("button.css");
+@import url("avatar.css");
+@import url("cards.css");
+@import url("navbar.css");
+@import url("components/tabs.css");
+
+/* --- Fonts --- */ 
+body {
+font-family: 'Open Sans', sans-serif; }
+h1, h2, h3 {
+font-family: 'Playfair Display', serif;
+}
+.tabs_content{
+    position:relative;
+    width:100%;
+    height:50vh;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom:30px;
+}
+
+h2{
+    color:black;
+    text-align: center;
+    z-index:100;
+}
+
+* {
+    padding: 0;
+}
+
+.tabs{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tabs .tab{
+    width:50%;
+    float: left;
+    display: block;
+    z-index:30;
+}
+
+.tabs .tab>input[type="radio"] {
+    position: absolute;
+}
+
+
+
+.tabs .tab>label {
+    display: block;
+    text-align:center;
+    padding: 15px 21px;
+    font-size: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    color: #FFF;
+    background: #4A83FD;
+    z-index:30;
+}
+
+.tabs .content {
+    z-index: 0;
+    overflow: hidden;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0px;
+    left: 0;
+    z-index: 10;
+    color: #DFDFDF;
+    background:#fff;
+    opacity:0;
+    transition: opacity 400ms ease-out;
+    display:flex;
+    border-bottom:solid;
+    border-width:2px;
+}
+
+.tabs>.tab>[id^="tab"]:checked + label {
+    top: 0;
+    background: #303030;
+    color: #F5F5F5;
+}
+
+.tabs>.tab>[id^="tab"]:checked ~ [id^="tab-content"] {
+    z-index: 1;
+   
+    opacity: 1;
+    transition: opacity 400ms ease-out;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+
+
+/* --- Import Components stylesheets --- */ 
+/*@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/avatar.css");
+@import url("components/cards.css");
+@import url("components/navbar.css");
+@import url("components/tabs.css");*/ 
+
+
+/* --- Import Google Fonts stylesheets --- */
+
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Playfair+Display:700" rel="stylesheet">
+
+/* --- Fonts --- */ 
+html {
+width:100vw;
+height:auto;
+}
+
+body {
+position: relative;
+width:100%;
+margin:0 auto;
+top:0px;
+}
+
+h1, h2, h3 {
+font-family: 'Playfair Display', serif;
+}
+
+h4{
+font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+.content{
+	position:relative;
+	top:84px;
+}

@@ -1,0 +1,43 @@
+.boutton_content{
+	position:relative;
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.btn {
+	color: #ff7e5f;
+	background-image: linear-gradient(to bottom, #ff7e5f 40%, #feb47b 100%);
+	border-radius: 10px;
+	display: block;
+	width: 150px;
+	height: 40px;
+	padding: 3px;
+	margin: 0 auto;
+}
+
+.btn:hover {
+	color: #fff;
+}
+
+.btn span {
+	font-family: 'Open Sans', sans-serif;
+	align-items: center;
+	background: #ffff;
+	border-radius: 7px;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	transition: background .5s ease;
+	width: 100%;
+}
+
+.btn:hover span {
+	background: transparent;
+}

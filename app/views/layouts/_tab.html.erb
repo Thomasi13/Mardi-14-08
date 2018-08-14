@@ -1,0 +1,41 @@
+<div class="tabs_content">
+  <ul class="tabs">
+
+    <li class="tab">
+      <input type="radio" name="tabs" checked="checked" id="tab1" />
+      <label for="tab1">Avatar Large</label>
+      <div class="content" id="tab-content1">
+        <div class="avatar_content">
+
+          <div class='avatar-large'>
+            <div class='avatar_content_large'>
+              <img class="avatar_image_large" src="<%= image_path('hibou.png')%>" alt='Un hibou'>
+            </div>
+            <div class='avatar_content_large'>
+              Nom avatar 
+            </div>
+          </div>
+        </div>
+      </li>
+
+
+      <li class="tab">
+        <input type="radio" name="tabs" id="tab2" />
+        <label for="tab2">Avatar Small</label>   
+        <div id="tab-content2" class="content">
+          <div class="avatar_content">
+
+            <div class='avatar-small'>
+              <div class='avatar_content_small'>
+                <img class="avatar_image_small" src="<%= image_path('hibou.png')%>" alt='Un hibou'>
+              </div>
+              <div class='avatar_content_small'>
+                <span>Nom d'avatar</span>
+              </div>
+            </div>
+
+          </div>    
+        </div>
+      </li>
+  </ul>
+</div>
