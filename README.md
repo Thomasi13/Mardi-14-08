@@ -9,4 +9,6 @@ Application rails avec création des composants :
 - trois cards
 - une tabs 
 
+Lien de l'application : https://glacial-coast-56661.herokuapp.com
+
 Travail réalisé par Ahmed Bouzid, Thomas Iatrou & Romain Cestari
